@@ -26,15 +26,14 @@
     .header-flex {
       display: flex;
       align-items: center;
-      justify-content: center; /* 居中整个组合，可根据需要调整为 flex-start */
-      gap: 20px; /* 图片和标题之间的间距 */
+      justify-content: center;
+      gap: 20px;
     }
 
     .header-flex img {
       height: 60px;
       border-radius: 8px;
     }
-
 
     main {
       max-width: 900px;
@@ -50,6 +49,22 @@
       line-height: 1.8;
       padding-left: 20px;
     }
+    .download-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      background-color: #0d6efd;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #0b5ed7;
+    }
+
     footer {
       text-align: center;
       font-size: 14px;
@@ -60,10 +75,10 @@
 </head>
 <body>
   <header>
- <div class="header-flex">
-    <img src="FluxSaver.jpg" alt="FluxSaver Logo" />
-    <h1>FluxSaver 全能在线视频下载助手</h1>
-  </div>
+    <div class="header-flex">
+      <img src="FluxSaver.jpg" alt="FluxSaver Logo" />
+      <h1>FluxSaver 全能在线视频下载助手</h1>
+    </div>
   </header>
   <main>
     <h2>🌟 软件简介</h2>
@@ -94,6 +109,11 @@
       <li>下载日志实时滚动</li>
       <li>底部授权状态显示</li>
     </ul>
+
+
+    <h2>下载链接</h2>
+    <a class="download-button" href="https://pan.baidu.com/s/1sQkcQQa4MSMktwHJyg4OEA?pwd=mph5" target="_blank">⬇️ 立即下载 FluxSaver</a>
+
   </main>
   <footer>
     &copy; 2025 FluxSaver 软件团队 | 保留所有权利
